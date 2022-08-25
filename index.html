@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="images/list-check-solid.svg" />
+    <meta
+      property="og:image"
+      content="images/thomas-bormans-pcpsVsyFp_s-unsplash.jpg"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+      integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://kit.fontawesome.com/aa27ed4613.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,900;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link href="/css/style.css" rel="stylesheet" />
+    <script defer src="/js/script.js"></script>
+    <title>Lista zadań</title>
+  </head>
+  <body class="body">
+    <header>
+      <h1 class="header__heading">Lista zadań</h1>
+    </header>
+    <section>
+      <h2 class="section--styles">Dodaj nowe zadanie</h2>
+      <form class="section__form section--styles js-fom">
+        <input
+          class="form__input js-newTask"
+          type="text"
+          name="newTask"
+          placeholder="Co jest do zrobienia?"
+        />
+        <button class="form__button" type="submit">Dodaj zadanie</button>
+      </form>
+      <h2 class="section--styles">Lista zadań</h2>
+      <ul class="section__unodrederList section--styles js-tasks"></ul>
+    </section>
+  </body>
+</html>

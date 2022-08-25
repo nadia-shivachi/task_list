@@ -1,0 +1,49 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+.body {
+  font-family: "Lato", sans-serif;
+  background-color: #eeeeee;
+  letter-spacing: 0.5px;
+  line-height: 1.5;
+  max-width: 1000px;
+  margin: 20px;
+}
+
+.header__heading {
+  font-weight: 900;
+}
+
+.section--styles {
+  border: 1px solid #ebeaea;
+  border-collapse: collapse;
+  padding: 20px;
+  background-color: white;
+  margin: 0;
+}
+
+.section__form {
+  display: grid;
+}
+
+.form__input {
+  border: 2px solid #ebeaea;
+  padding: 10px 7px; 
+}
+
+.form__button {
+  color: white;
+  background-color: #007382;
+  border: none;
+  padding: 10px 7px;
+}
+
+.section__unodrederList {
+}
